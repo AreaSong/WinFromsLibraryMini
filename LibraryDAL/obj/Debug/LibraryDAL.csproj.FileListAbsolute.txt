@@ -1,0 +1,17 @@
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\LibraryDAL.dll.config
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\LibraryDAL.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\LibraryDAL.pdb
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\DbHelp.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\EntityFramework.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\DbHelp.pdb
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\DbHelp.dll.config
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\EntityFramework.xml
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\obj\Debug\LibraryDAL.csproj.AssemblyReference.cache
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\obj\Debug\LibraryDAL.csproj.CoreCompileInputs.cache
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\obj\Debug\LibraryDAL.csproj.Up2Date
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\obj\Debug\LibraryDAL.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryDAL\obj\Debug\LibraryDAL.pdb

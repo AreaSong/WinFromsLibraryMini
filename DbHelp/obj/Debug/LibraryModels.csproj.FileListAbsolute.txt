@@ -1,0 +1,14 @@
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\DbHelp.dll.config
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\DbHelp.dll
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\DbHelp.pdb
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\EntityFramework.dll
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\EntityFramework.xml
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\obj\Debug\LibraryModels.csproj.AssemblyReference.cache
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\obj\Debug\LibraryModels.csproj.CoreCompileInputs.cache
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\obj\Debug\LibraryM.F601D2B6.Up2Date
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\obj\Debug\DbHelp.dll
+F:\Project-C#\Project\WinFromsLibraryMini\DbHelp\obj\Debug\DbHelp.pdb

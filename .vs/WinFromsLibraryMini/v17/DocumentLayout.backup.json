@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|f:\\project-c#\\project\\winfromslibrarymini\\winfromslibrarymini\\forms\\usersc\\bookmanagerusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|solutionrelative:winfromslibrarymini\\forms\\usersc\\bookmanagerusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookManagerUserControl.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\Forms\\UsersC\\BookManagerUserControl.cs",
+              "RelativeDocumentMoniker": "WinFromsLibraryMini\\Forms\\UsersC\\BookManagerUserControl.cs",
+              "ToolTip": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\Forms\\UsersC\\BookManagerUserControl.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WinFromsLibraryMini\\Forms\\UsersC\\BookManagerUserControl.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T03:47:40.379Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

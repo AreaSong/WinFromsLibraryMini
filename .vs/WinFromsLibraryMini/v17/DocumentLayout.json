@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|f:\\project-c#\\project\\winfromslibrarymini\\winfromslibrarymini\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|solutionrelative:winfromslibrarymini\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91E8CFD3-388B-4728-8696-7CDFD4D46C4F}|LibraryDAL\\LibraryDAL.csproj|f:\\project-c#\\project\\winfromslibrarymini\\librarydal\\logindal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91E8CFD3-388B-4728-8696-7CDFD4D46C4F}|LibraryDAL\\LibraryDAL.csproj|solutionrelative:librarydal\\logindal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|f:\\project-c#\\project\\winfromslibrarymini\\winfromslibrarymini\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|solutionrelative:winfromslibrarymini\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|f:\\project-c#\\project\\winfromslibrarymini\\winfromslibrarymini\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|solutionrelative:winfromslibrarymini\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|f:\\project-c#\\project\\winfromslibrarymini\\winfromslibrarymini\\forms\\usersc\\bookmanagerusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B797C6C9-4BAD-4961-9D93-545AB50C43A1}|WinFromsLibraryMini\\WinFromsLibraryMini.csproj|solutionrelative:winfromslibrarymini\\forms\\usersc\\bookmanagerusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "WinFromsLibraryMini\\Forms\\LoginForm.cs",
+              "ToolTip": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\Forms\\LoginForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WinFromsLibraryMini\\Forms\\LoginForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T10:39:30.664Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginDAL.cs",
+              "DocumentMoniker": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\LibraryDAL\\LoginDAL.cs",
+              "RelativeDocumentMoniker": "LibraryDAL\\LoginDAL.cs",
+              "ToolTip": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\LibraryDAL\\LoginDAL.cs",
+              "RelativeToolTip": "LibraryDAL\\LoginDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T10:39:21.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "packages.config",
+              "DocumentMoniker": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\packages.config",
+              "RelativeDocumentMoniker": "WinFromsLibraryMini\\packages.config",
+              "ToolTip": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\packages.config",
+              "RelativeToolTip": "WinFromsLibraryMini\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-11T10:39:08.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\App.config",
+              "RelativeDocumentMoniker": "WinFromsLibraryMini\\App.config",
+              "ToolTip": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\App.config",
+              "RelativeToolTip": "WinFromsLibraryMini\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-11T10:39:07.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookManagerUserControl.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\Forms\\UsersC\\BookManagerUserControl.cs",
+              "RelativeDocumentMoniker": "WinFromsLibraryMini\\Forms\\UsersC\\BookManagerUserControl.cs",
+              "ToolTip": "F:\\Project-C#\\Project\\WinFromsLibraryMini\\WinFromsLibraryMini\\Forms\\UsersC\\BookManagerUserControl.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WinFromsLibraryMini\\Forms\\UsersC\\BookManagerUserControl.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T03:47:40.379Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

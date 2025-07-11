@@ -1,0 +1,17 @@
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\LibraryBLL.dll.config
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\LibraryBLL.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\LibraryBLL.pdb
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\DbHelp.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\LibraryDAL.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\EntityFramework.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\DbHelp.pdb
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\DbHelp.dll.config
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\LibraryDAL.pdb
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\LibraryDAL.dll.config
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\EntityFramework.xml
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\obj\Debug\LibraryBLL.csproj.AssemblyReference.cache
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\obj\Debug\LibraryBLL.csproj.CoreCompileInputs.cache
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\obj\Debug\LibraryBLL.csproj.Up2Date
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\obj\Debug\LibraryBLL.dll
+F:\Project-C#\Project\WinFromsLibraryMini\LibraryBLL\obj\Debug\LibraryBLL.pdb

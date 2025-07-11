@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WinFromsLibraryMiniModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Author" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Publisher" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ISBN" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Stock" Type="Int32" Nullable="false" />
+    <Property Name="Summary" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BorrowRecords" Relationship="Self.FK_Borrow_Book" FromRole="Books" ToRole="BorrowRecords" />
+  </EntityType>
+  <EntityType Name="BorrowRecord">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Name="RecordId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="BookId" Type="Int32" Nullable="false" />
+    <Property Name="BorrowDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ReturnDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Book" Relationship="Self.FK_Borrow_Book" FromRole="BorrowRecords" ToRole="Books" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Borrow_User" FromRole="BorrowRecords" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BorrowRecords" Relationship="Self.FK_Borrow_User" FromRole="Users" ToRole="BorrowRecords" />
+  </EntityType>
+  <Association Name="FK_Borrow_Book">
+    <End Role="Books" Type="Self.Book" Multiplicity="1" />
+    <End Role="BorrowRecords" Type="Self.BorrowRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="BookId" />
+      </Principal>
+      <Dependent Role="BorrowRecords">
+        <PropertyRef Name="BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Borrow_User">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="BorrowRecords" Type="Self.BorrowRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="BorrowRecords">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WinFromsLibraryMiniEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Books" EntityType="Self.Book" />
+    <EntitySet Name="BorrowRecords" EntityType="Self.BorrowRecord" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Borrow_Book" Association="Self.FK_Borrow_Book">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="BorrowRecords" EntitySet="BorrowRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Borrow_User" Association="Self.FK_Borrow_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="BorrowRecords" EntitySet="BorrowRecords" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(WinFromsLibraryMiniModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(WinFromsLibraryMiniModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>
